@@ -38,6 +38,11 @@ namespace XWAssignment2
                                 }
                             } while (inputIntegers[i] <= 0);
                         }
+
+                        Console.WriteLine("**********************************");
+                        Console.WriteLine(TriangleSolver.Analyze(inputIntegers[0], inputIntegers[1], inputIntegers[2]));
+                        Console.WriteLine("**********************************");
+                        option = "";
                         break;
                     case "2":
                         Environment.Exit(0);
