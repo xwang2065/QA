@@ -1,0 +1,6 @@
+C:\Users\xwang\Desktop\CPA_S4\QA\Assignment2\XWAssignment2\XWAssignment2\bin\Debug\XWAssignment2.exe.config
+C:\Users\xwang\Desktop\CPA_S4\QA\Assignment2\XWAssignment2\XWAssignment2\bin\Debug\XWAssignment2.exe
+C:\Users\xwang\Desktop\CPA_S4\QA\Assignment2\XWAssignment2\XWAssignment2\bin\Debug\XWAssignment2.pdb
+C:\Users\xwang\Desktop\CPA_S4\QA\Assignment2\XWAssignment2\XWAssignment2\obj\Debug\XWAssignment2.csprojAssemblyReference.cache
+C:\Users\xwang\Desktop\CPA_S4\QA\Assignment2\XWAssignment2\XWAssignment2\obj\Debug\XWAssignment2.exe
+C:\Users\xwang\Desktop\CPA_S4\QA\Assignment2\XWAssignment2\XWAssignment2\obj\Debug\XWAssignment2.pdb

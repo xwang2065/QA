@@ -10,6 +10,45 @@ namespace XWAssignment2
     {
         static void Main(string[] args)
         {
+            string option = "";
+            int[] inputIntegers = new int[3];
+
+            do
+            {
+                Console.WriteLine("1. Enter triangle dimensions");
+                Console.WriteLine("2. Exit ");
+                Console.WriteLine("**********************************");
+
+                option = Console.ReadLine();
+
+                switch (option)
+                {
+                    case "1":
+                        for (int i = 0; i < inputIntegers.Length; i++)
+                        {
+                            do
+                            {
+                                Console.Write("Please enter a positive interger for one side of the triangle:\t");
+                                if (!int.TryParse(Console.ReadLine(), out inputIntegers[i]) || inputIntegers[i] <= 0)
+                                {
+                                    Console.WriteLine("Wrong input!");
+                                    Console.WriteLine("**********************************");
+
+                                    inputIntegers[i] = -1;
+                                }
+                            } while (inputIntegers[i] <= 0);
+                        }
+                        break;
+                    case "2":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Incorrect input! Please choose again:");
+                        break;
+                }
+            } while (option != "1" && option != "2");
+
+            Console.ReadKey();
         }
     }
 }
