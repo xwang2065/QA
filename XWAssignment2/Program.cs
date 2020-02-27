@@ -40,7 +40,8 @@ namespace XWAssignment2
                         }
 
                         Console.WriteLine("**********************************");
-                        Console.WriteLine(TriangleSolver.Analyze(inputIntegers[0], inputIntegers[1], inputIntegers[2]));
+                        Console.WriteLine($"These three integers can form " +
+                            $"{TriangleSolver.Analyze(inputIntegers[0], inputIntegers[1], inputIntegers[2])}");
                         Console.WriteLine("**********************************");
                         option = "";
                         break;
