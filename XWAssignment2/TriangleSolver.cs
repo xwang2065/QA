@@ -16,21 +16,21 @@ namespace XWAssignment2
             
             if (threeSides[0] + threeSides[1] <= threeSides[2])
             {
-                builder.Append("no triangle");
+                builder.Append("No, the numbers cannot form a triangle");
             }
             else
             {
                 if (threeSides[0] == threeSides[1] && threeSides[1] == threeSides[2])
                 {
-                    builder.Append("equilateral triangle");
+                    builder.Append("Yes, the numbers can form a equilateral triangle");
                 }
                 else if (threeSides[0] == threeSides[1] || threeSides[1] == threeSides[2])
                 {
-                    builder.Append("isosceles triangle");
+                    builder.Append("Yes, the numbers can form a isosceles triangle");
                 }
                 else
                 {
-                    builder.Append("scalene triangle");
+                    builder.Append("Yes, the numbers can form a scalene triangle");
                 }
             }
 

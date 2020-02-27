@@ -20,6 +20,7 @@ namespace XWAssignment2
                 Console.WriteLine("**********************************");
 
                 option = Console.ReadLine();
+                Console.WriteLine("**********************************");
 
                 switch (option)
                 {
@@ -31,8 +32,7 @@ namespace XWAssignment2
                                 Console.Write("Please enter a positive interger for one side of the triangle:\t");
                                 if (!int.TryParse(Console.ReadLine(), out inputIntegers[i]) || inputIntegers[i] <= 0)
                                 {
-                                    Console.WriteLine("Wrong input!");
-                                    Console.WriteLine("**********************************");
+                                    Console.WriteLine("***********Wrong input!***********");
 
                                     inputIntegers[i] = -1;
                                 }
@@ -40,8 +40,7 @@ namespace XWAssignment2
                         }
 
                         Console.WriteLine("**********************************");
-                        Console.WriteLine($"These three integers can form " +
-                            $"{TriangleSolver.Analyze(inputIntegers[0], inputIntegers[1], inputIntegers[2])}");
+                        Console.WriteLine(TriangleSolver.Analyze(inputIntegers[0], inputIntegers[1], inputIntegers[2]));
                         Console.WriteLine("**********************************");
                         option = "";
                         break;
