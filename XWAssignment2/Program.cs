@@ -18,6 +18,7 @@ namespace XWAssignment2
                 Console.WriteLine("1. Enter triangle dimensions");
                 Console.WriteLine("2. Exit ");
                 Console.WriteLine("**********************************");
+                Console.Write("Please choose from the menu:\t");
 
                 option = Console.ReadLine();
                 Console.WriteLine("**********************************");
@@ -48,7 +49,7 @@ namespace XWAssignment2
                         Environment.Exit(0);
                         break;
                     default:
-                        Console.WriteLine("Incorrect input! Please choose again:");
+                        Console.WriteLine("Please only choose 1 or 2!");
                         break;
                 }
             } while (option != "1" && option != "2");
